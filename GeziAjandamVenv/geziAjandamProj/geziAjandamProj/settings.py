@@ -10,8 +10,75 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
-import os
 
+import logging.config
+from django.utils.log import DEFAULT_LOGGING
+from django.db import connection
+
+import os
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'default': {
+            # exact format is not important, this is the minimum information
+            'format': '%(asctime)s %(name)-12s %(levelname)-8s %(message)s | %(processName)s',
+
+        },
+        'django.server': {
+            '()': 'django.utils.log.ServerFormatter',
+            'format': '[{server_time}] {message} ORTASERVERr',
+            'style': '{',
+        },
+        'verbose': {
+                #'format': 'funcname : %(funcName)s | %(process)-5d %(processName)s %(name)s:%(lineno)d %(levelname)s %(message)s ABK'
+                'format': '%(levelname)s %(asctime)s %(name)s.%(funcName)s:%(lineno)s- %(message)s  PPPPP'
+                #'format': 'connection.queries'
+        },
+        #'django.server': DEFAULT_LOGGING['formatters']['django.server'],
+    },
+    'handlers': {
+        'django.server': {
+            'level': 'INFO',
+            'class': 'logging.StreamHandler',
+            'formatter': 'django.server',
+        },
+        'file': {
+          'level': 'INFO',
+          'class': 'logging.FileHandler',
+          'filename': 'Logconfig.log',
+          'formatter': 'verbose'
+        },
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'default',
+        },
+        #'django.server': DEFAULT_LOGGING['handlers']['django.server'],
+    },
+    'loggers': {
+        # default for all undefined Python modules
+        'django': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+            'propagate': True
+        },
+        'django.server': {
+            'handlers': ['django.server'],
+            'level': 'INFO',
+            'propagate': False,
+        },
+        'django.db.backends': {
+            'level': 'DEBUG',
+            'handlers': ['file'],
+        }
+        # Default runserver request logging
+        #'django.server': DEFAULT_LOGGING['loggers']['django.server'],
+    },
+    'root': {
+        'handlers': ['file'],
+        'level': 'WARNING',
+    },
+}
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 

@@ -1,0 +1,74 @@
+61677 MainProcess django.utils.autoreload:222 INFO /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading. burak
+61677 MainProcess django.utils.autoreload:222 INFO /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading. burak
+funcname : run_with_reloader | 61749 MainProcess django.utils.autoreload:598 INFO Watching for file changes with StatReloader burak
+funcname : run_with_reloader | 61749 MainProcess django.utils.autoreload:598 INFO Watching for file changes with StatReloader burak
+funcname : log_message | 61749 MainProcess django.server:157 INFO "GET /api/place/ HTTP/1.1" 200 10128 burak
+funcname : log_message | 61749 MainProcess django.server:157 INFO "GET /api/place/ HTTP/1.1" 200 10128 burak
+funcname : trigger_reload | 61749 MainProcess django.utils.autoreload:222 INFO /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading. burak
+funcname : trigger_reload | 61749 MainProcess django.utils.autoreload:222 INFO /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading. burak
+funcname : run_with_reloader | 61968 MainProcess django.utils.autoreload:598 INFO Watching for file changes with StatReloader burak
+funcname : run_with_reloader | 61968 MainProcess django.utils.autoreload:598 INFO Watching for file changes with StatReloader burak
+funcname : trigger_reload | 61968 MainProcess django.utils.autoreload:222 INFO /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading. burak
+funcname : trigger_reload | 61968 MainProcess django.utils.autoreload:222 INFO /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading. burak
+funcname : run_with_reloader | 61987 MainProcess django.utils.autoreload:598 INFO Watching for file changes with StatReloader ABK
+funcname : run_with_reloader | 61987 MainProcess django.utils.autoreload:598 INFO Watching for file changes with StatReloader ABK
+funcname : trigger_reload | 61987 MainProcess django.utils.autoreload:222 INFO /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading. ABK
+funcname : trigger_reload | 61987 MainProcess django.utils.autoreload:222 INFO /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading. ABK
+funcname : run_with_reloader | 62013 MainProcess django.utils.autoreload:598 INFO Watching for file changes with StatReloader ABK
+funcname : run_with_reloader | 62013 MainProcess django.utils.autoreload:598 INFO Watching for file changes with StatReloader ABK
+funcname : trigger_reload | 62013 MainProcess django.utils.autoreload:222 INFO /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading. ABK
+funcname : trigger_reload | 62013 MainProcess django.utils.autoreload:222 INFO /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading. ABK
+[2020-03-23 19:16:48,778] Watching for file changes with StatReloader ORTASERVERr
+[2020-03-23 19:16:48,778] Watching for file changes with StatReloader ORTASERVERr
+[2020-03-23 19:19:12,271] /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading. ORTASERVERr
+[2020-03-23 19:19:12,271] /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading. ORTASERVERr
+[2020-03-23 19:19:13,500] Watching for file changes with StatReloader ORTASERVERr
+[2020-03-23 19:19:13,500] Watching for file changes with StatReloader ORTASERVERr
+[2020-03-23 19:19:18,562] /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading. ORTASERVERr
+[2020-03-23 19:19:18,562] /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading. ORTASERVERr
+INFO 2020-03-23 19:19:18,954 django.utils.autoreload.run_with_reloader:598- Watching for file changes with StatReloader
+INFO 2020-03-23 19:19:18,954 django.utils.autoreload.run_with_reloader:598- Watching for file changes with StatReloader
+INFO 2020-03-23 19:19:57,748 django.utils.autoreload.trigger_reload:222- /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading.
+INFO 2020-03-23 19:19:57,748 django.utils.autoreload.trigger_reload:222- /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading.
+INFO 2020-03-23 19:19:58,949 django.utils.autoreload.run_with_reloader:598- Watching for file changes with StatReloader  PPPPP
+INFO 2020-03-23 19:19:58,949 django.utils.autoreload.run_with_reloader:598- Watching for file changes with StatReloader  PPPPP
+ERROR 2020-03-23 19:30:29,931 django.request.log_response:222- Internal Server Error: /api/place/3  PPPPP
+Traceback (most recent call last):
+  File "/Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/place/3/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2020-03-23 19:32:40,136 django.request.log_response:222- Internal Server Error: /api/place  PPPPP
+Traceback (most recent call last):
+  File "/Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/place/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+INFO 2020-03-23 19:34:32,106 django.utils.autoreload.trigger_reload:222- /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading.  PPPPP
+INFO 2020-03-23 19:34:32,106 django.utils.autoreload.trigger_reload:222- /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading.  PPPPP
+INFO 2020-03-23 19:34:33,168 django.utils.autoreload.run_with_reloader:598- Watching for file changes with StatReloader  PPPPP
+INFO 2020-03-23 19:34:33,168 django.utils.autoreload.run_with_reloader:598- Watching for file changes with StatReloader  PPPPP
+INFO 2020-03-23 19:42:30,614 django.utils.autoreload.trigger_reload:222- /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading.  PPPPP
+INFO 2020-03-23 19:42:30,614 django.utils.autoreload.trigger_reload:222- /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading.  PPPPP
+INFO 2020-03-23 19:42:31,871 django.utils.autoreload.run_with_reloader:598- Watching for file changes with StatReloader  PPPPP
+INFO 2020-03-23 19:42:31,871 django.utils.autoreload.run_with_reloader:598- Watching for file changes with StatReloader  PPPPP
+INFO 2020-03-23 19:44:33,244 django.utils.autoreload.trigger_reload:222- /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading.  PPPPP
+INFO 2020-03-23 19:44:33,244 django.utils.autoreload.trigger_reload:222- /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading.  PPPPP
+INFO 2020-03-23 19:44:34,549 django.utils.autoreload.run_with_reloader:598- Watching for file changes with StatReloader  PPPPP
+INFO 2020-03-23 19:44:34,549 django.utils.autoreload.run_with_reloader:598- Watching for file changes with StatReloader  PPPPP
+INFO 2020-03-23 19:52:10,570 django.utils.autoreload.trigger_reload:222- /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading.  PPPPP
+INFO 2020-03-23 19:52:10,570 django.utils.autoreload.trigger_reload:222- /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading.  PPPPP
+INFO 2020-03-23 19:55:24,874 django.utils.autoreload.run_with_reloader:598- Watching for file changes with StatReloader  PPPPP
+INFO 2020-03-23 19:55:24,874 django.utils.autoreload.run_with_reloader:598- Watching for file changes with StatReloader  PPPPP
+INFO 2020-03-23 19:56:02,536 django.utils.autoreload.trigger_reload:222- /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading.  PPPPP
+INFO 2020-03-23 19:56:02,536 django.utils.autoreload.trigger_reload:222- /Users/ahmetburakmac/geziAjandam/GeziAjandamVenv/geziAjandamProj/geziAjandamProj/settings.py changed, reloading.  PPPPP
