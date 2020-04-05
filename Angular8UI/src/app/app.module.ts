@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -14,11 +14,13 @@ import {
   MatProgressSpinnerModule
 } from '@angular/material';
 import { DetailComponent } from './detail/detail.component';
+import { CreateComponent } from './create/create.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    DetailComponent
+    DetailComponent,
+    CreateComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,8 @@ import { DetailComponent } from './detail/detail.component';
     MatIconModule,
     MatButtonModule,
     MatCardModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

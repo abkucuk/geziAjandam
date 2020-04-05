@@ -106,6 +106,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'placesapi',
     'rest_framework',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -116,8 +117,12 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-]
+    'django.middleware.common.CommonMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.BrokenLinkEmailsMiddleware',
 
+]
+CORS_ORIGIN_ALLOW_ALL = True
 ROOT_URLCONF = 'geziAjandamProj.urls'
 
 TEMPLATES = [

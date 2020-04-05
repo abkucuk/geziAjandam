@@ -36,4 +36,7 @@ export class ApiService {
   public getPlaceDetail(id) {
     return this.httpClient.get(this.SERVER_URL + id + '/');
   }
+  public createPlace(data) {
+    return this.httpClient.post(this.SERVER_URL, data);
+  }
 }

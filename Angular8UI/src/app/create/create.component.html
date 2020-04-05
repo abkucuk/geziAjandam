@@ -1,0 +1,11 @@
+<div class="form-group">
+    <label for="title">name</label>
+    <input type="text" class="form-control" id="name" required [(ngModel)]="place.name" name="name" />
+</div>
+
+<div class="form-group">
+    <label for="description">notes</label>
+    <input class="form-control" id="notes" required [(ngModel)]="place.notes" name="notes" />
+</div>
+
+<button (click)="savePlace()" class="btn btn-success">Submit</button>
